@@ -1,0 +1,2 @@
+#variaveis 
+numeros=0 
