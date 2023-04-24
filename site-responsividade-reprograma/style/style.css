@@ -1,0 +1,63 @@
+
+/* estilo para desktop */
+* {
+    font-size: 18px;
+}
+
+body {
+    background-color: beige;
+}
+
+header {
+    width: 100%;
+}
+
+header > nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.nav__lista--container {
+    max-width: 360px;
+    min-width: 300px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.1rem;
+}
+
+nav li {
+    list-style: none;
+}
+
+li a {
+    color: crimson;
+    font-weight: bold;
+    margin-right: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* estilo para tablets */
+@media screen and (max-width: 830px) {
+    body {
+        background-color: brown;
+    }
+}
+
+/* estilo para celulares */
+@media screen and (max-width: 500px){
+    /* faça o que está aqui dentro */
+    * {
+        font-size: 15px;
+    }
+
+    body {
+        background-color: gray;
+    }
+}

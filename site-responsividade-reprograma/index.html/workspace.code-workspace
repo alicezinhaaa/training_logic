@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\imagens suculentas"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "site-responsividade-reprograma"
+	}
+}
