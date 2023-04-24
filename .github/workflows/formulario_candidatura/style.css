@@ -1,0 +1,82 @@
+* {
+    font-family: 'Marvel', sans-serif;
+    background-color: khaki;
+    
+}
+
+h1 {
+    font-size: 2rem;
+    width: 500px;
+    font: bold;
+}
+
+.h1_container {
+    display:flex;
+    justify-content: center;
+    align-items: end;
+}
+
+img {
+    width: 20%;
+    padding: 30px;
+}
+
+.form_principal--container {
+    display: flex;
+    justify-content: center;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+fieldset {
+    max-width: 800px;
+    margin: 20px;
+    padding: 25px;
+    line-height: 30px;
+}
+
+fieldset > textarea:focus {
+    background-color: burlywood;
+}
+
+form button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: chocolate;
+    border: 10px solid burlywood;
+    max-width: 40%;
+    color: white;
+    font: bold;
+    text-transform: uppercase;
+}
+
+form button:hover {
+    opacity: 0.3;
+    background-color: black;
+    cursor: pointer;
+}
+
+.tabela_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 70px;
+
+}
+
+
+footer {
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+    margin-top: 50px;
+    font-weight: lighter;
+    
+}
