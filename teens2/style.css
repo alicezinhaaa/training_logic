@@ -1,0 +1,102 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-size: 2rem;
+    width: 500px;
+}
+
+.h1_container {
+    display:flex;
+    justify-content: center;
+    align-items: end;
+}
+
+img {
+    width: 18%;
+}
+
+.form_principal--container {
+    display: flex;
+    justify-content: center;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+fieldset {
+    max-width: 800px;
+    margin: 20px;
+    padding: 25px;
+    line-height: 30px;
+}
+
+fieldset > textarea:focus {
+    background-color: violet;
+}
+
+form button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: peachpuff;
+    border: 10px solid plum;
+    max-width: 40%;
+    color: rebeccapurple;
+    text-transform: uppercase;
+}
+
+form button:hover {
+    opacity: 0.3;
+    background-color: gray;
+    cursor: pointer;
+}
+
+.tabela_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 70px;
+
+}
+
+table {
+    max-width: 50px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: plum;
+    border: 1px solid purple;
+}
+
+table > td, th, tr {
+    padding: 20px;
+    font: purple;
+    text-align: center;
+}
+
+table > td {
+    font: bold;
+    
+}
+
+th, td {
+    color: purple;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+    margin-top: 20px;
+    font-weight: lighter;
+    font-style: italic ;
+}
+
+
