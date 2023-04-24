@@ -8,7 +8,11 @@ with sync_playwright() as p:
     pagina = navegador.new_page()
     pagina.goto("http://localhost/loja/loja/categoria/formulario_cadastro_categoria.html")
     time.sleep(2)
-    
-    expect(pagina).to_have_title('Loja Dougland')
+    pagina.fill('//*[@id="input_nome_categoria"]','Games')
+    time.sleep(3)
 
+    locator = pagina.get_by_role("button", name="Cadastrar")
+
+    locator.hover()
+    locator.click()
     time.sleep(2)

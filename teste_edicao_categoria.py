@@ -16,3 +16,5 @@ with sync_playwright() as p:
     locator.hover()
     locator.click()
     time.sleep(2)
+
+
